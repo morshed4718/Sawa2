@@ -7,14 +7,14 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "TOM-BOT",
+  "BOTNAME": "𝗠𝗲𝗲𝗼𝗼𝗼𝘄",
   "PREFIX": ",",
   "OPERATOR": [
     "100014896964436",
     "100000959749712"
   ],
   "ADMINBOT": [
-    "61564959257681",
+    "100075133524968",
     ""
   ],
   "OWNER": ["100000959749712"], 
