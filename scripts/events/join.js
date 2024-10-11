@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি শাকিল তোমাদের মাঝে🤭কেউ ফাজলামি করবি না ওকে😾😾!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি MorshEd তোমাদের মাঝে🤭 কেউ ফাজলামি করবি না ওকে😾😾! আমাকে কন্ট্রোল করার জন্য আমার বস Leo MoshEd কে এড দেও😣😾","FB LINK :https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,13 +66,13 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Shakil Tom
+DEVELOPER : Leo MorshEd
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/GOLAPI.NUNUR.ODHIKARI.TOM.YOUR.NEXT.VATAR
+https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL
 
-🔵WHATSAPP NUMBER: wa.me/+8801918546009
+🔵WHATSAPP NUMBER: wa.me/+8801942089919
 
 🟢SUPPORT EMAIL: www.mdmnnm2004@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
