@@ -56,20 +56,23 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি 𝗠𝗲𝗲𝗼𝗼𝗼𝘄 তোমাদের মাঝে 🤭 কেউ ফাজলামি করবি না ওকে", "আমাকে কন্ট্রোল করার জন্য আমার বস Leo MoshEd কে এড দেও","event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি MorshEd তোমাদের মাঝে🤭কেউ ফাজলামি করবি না ওকে😾😾!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-BOT CONNECTED SUCCESFUL !!!
+BOT CONNECTED SUCCESFUL !!! 
 
-adding in the group chat successfully!!!
-"😈 কিরে বাঁদর গুলা শয়তানি করার জন্য অ্যাড দিছস 😈",
-"____________________________________\n\nযেকোনো কমান্ড দেখতে ${global.config.PREFIX}help ব্যবহার করুন",
-\n\উদাহারণ:\n${global.config.PREFIX}mark (text)\n${global.config.PREFIX}lexi (text)\n${global.config.PREFIX}trump (text)\n${global.config.PREFIX}info
-____________________________________
-"যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS",
-"MorshEd_কে নক করতে পারেন", 
-"👉FB link: https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL",
--
-🔵WHATSAPP NUMBER: wa.me/+8801942089919
+APPROVAL ALLOW IN THIS GROUP!!!
+<------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
+\n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)
+<------------------------------>
+AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
+
+DEVELOPER :MorshEd
+
+🟣Facebook Account Link: 
+
+https://www.facebook.com/GOLAPI.NUNUR.ODHIKARI.TOM.YOUR.NEXT.VATAR
+
+🔵WHATSAPP NUMBER: wa.me/+8801918546009
 
 🟢SUPPORT EMAIL: www.mdmnnm2004@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
@@ -181,4 +184,4 @@ ____________________________________
       }
     } catch (e) { return console.log(e) };
   }
-}
+          }
