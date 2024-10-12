@@ -7,7 +7,7 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "Leo-Bot",
+  "BOTNAME": "Leo-bot",
   "PREFIX": ",",
   "OPERATOR": [
     "100014896964436",
