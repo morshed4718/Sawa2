@@ -69,7 +69,7 @@ AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR
 DEVELOPER : Sawa2
 
 🟣Facebook Account Link: 
-
+https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL
 
 
 🔵WHATSAPP NUMBER: wa.me/+8801942089919
