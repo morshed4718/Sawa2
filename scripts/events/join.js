@@ -59,12 +59,12 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 BOT CONNECTED SUCCESFUL !!!
 
 adding in the group chat successfully!!!
-"😈 কিরে বাঁদর গুলা শয়তানি করার জন্য অ্যাড দিছস 😈",
+😈 কিরে বাঁদর গুলা শয়তানি করার জন্য অ্যাড দিছস 😈
 ____________________________________\n\nযেকোনো কমান্ড দেখতে ${global.config.PREFIX}help ব্যবহার করুন
 \n\উদাহারণ:\n${global.config.PREFIX}mark (text)\n${global.config.PREFIX}lexi (text)\n${global.config.PREFIX}trump (text)\n${global.config.PREFIX}info
 ____________________________________
-"যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS MorshEd_কে নক করতে পারেন",👉FB link: https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🤍",
-,
+যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS MorshEd_কে নক করতে পারেন",👉FB link: https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🤍
+
 `, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_908287014131424.mp4")}, threadID));
 })
 .catch(error => {
