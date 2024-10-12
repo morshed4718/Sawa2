@@ -54,7 +54,7 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি MorshEd এর Bot তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি MorshEd এর Bot তোমাদের মাঝে🤭!কিরে বাঁদর গুলা শয়তানি করার জন্য অ্যাড দিছস যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS MorshEd_কে নক করতে পারেন 👉FB link: https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🤍",", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!!
 
