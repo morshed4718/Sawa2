@@ -68,7 +68,10 @@ async function linkanh(choice) {
     "10": "/video/islam",
     "11": "/video/horny",
     "12": "/video/hot",
-    "13": "/video/item"
+    "13": "/video/item",
+    "14": "video/funny",
+    "15": "video/romantic",
+    "17": "video/sad"
   };
   const h = `${n}${options[choice]}`;
   return { p: axios, h };
