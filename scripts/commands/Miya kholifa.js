@@ -13,7 +13,7 @@ prefix: true,
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("boss") || react.includes("bossk") || react.includes("karbot")) {
+	if(react.includes("miakholifa") || react.includes("bossk") || react.includes("karbot")) {
 		var msg = {
 				body: "🥰আসসালামুআলাইকুম🥰🥰!!আমি 𝗠𝗼𝗿𝘀𝗵𝗘𝗱 এর ভদ্র বট!! কোন অভিযোগ অথবা হেল্প এর জন্য আমার বস MorshEd কে নক করতে পারেন FB LINK :https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🤍",
 			}
