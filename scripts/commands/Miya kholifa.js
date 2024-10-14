@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	let react = event.body.toLowerCase();
 	if(react.includes("boss") || react.includes("bossk") || react.includes("karbot")) {
 		var msg = {
-				body: "আসসালামু আলাইকুম 🥰🥰আমি 🥰 𝗠𝗼𝗿𝘀𝗵𝗘𝗱 এর ভদ্র বট!!FB LINK :https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🤍"
+				body: "বাঈনচোদ Mia kholifa তোর আম্মু লাগে!!💔 লিংক বা ভিডিও লাগলে!! বস 𝗠𝗼𝗿𝘀𝗵𝗘𝗱 কে নক কর মাদারবোর্ড!!FB LINK :https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🤍"
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("", event.messageID, (err) => {}, true)
