@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "miyakholifa",
+	name: "miya kholifa",
     version: "1.1.1",
 prefix: true,
 	permssion: 0,
@@ -15,8 +15,8 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	let react = event.body.toLowerCase();
 	if(react.includes("miya kholifa") || react.includes("miya kholofa") || react.includes("mia kholifa")) {
 		var msg = {
-				body: "__বাঈনচোদ Mia kholifa তোর আম্মু লাগে🥵💔!!",
-			"🖇️লিংক🥵বা📹ভিডিও🥵লাগলে বস 𝗠𝗼𝗿𝘀𝗵𝗘𝗱 কে নক কর মাদারবোর্ড🥵!!",
+				body: "__বাঈনচোদ Mia kholifa তোর আম্মু লাগে🥵💔!!"
+			"🖇️লিংক🥵বা📹ভিডিও🥵লাগলে বস 𝗠𝗼𝗿𝘀𝗵𝗘𝗱 কে নক কর মাদারবোর্ড🥵!!"
 			"😁👉FB LINK :https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🥵👍",
 			}
 			api.sendMessage(msg, threadID, messageID);
