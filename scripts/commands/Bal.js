@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	let react = event.body.toLowerCase();
 	if(react.includes("Bal") || react.includes("bl") || react.includes("Bal")) {
 		var msg = {
-				boday:"এই শব্দ টার  মধ্যে যে কতটা ভালোবাসা,কষ্ট,রোমাঞ্চ,লুকিয়ে আছে! তুমি কি বুঝবে বাল!😕",
+				boday: "এই শব্দ টার  মধ্যে যে কতটা ভালোবাসা,কষ্ট,রোমাঞ্চ,লুকিয়ে আছে! তুমি কি বুঝবে বাল!😕",
 		}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("", event.messageID, (err) => {}, true)
