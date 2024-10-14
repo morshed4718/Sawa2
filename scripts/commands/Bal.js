@@ -3,7 +3,7 @@ module.exports.config = {
 	name: "Bal",
     version: "1.1.1",
 prefix: true,
-	permssion: 0,
+	permssion: 1,
 	credits: "John Lester", 
 	description: "Just Respond",
 	category: "no prefix",
