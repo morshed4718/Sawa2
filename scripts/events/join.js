@@ -56,7 +56,8 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
     return api.sendMessage("চলে এসেছি আমি MorshEd এর Leo Bot তোমাদের মাঝে🤭! কিরে বাঁদর গুলা শয়তানি করার জন্য অ্যাড দিছস💋😼! যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS MorshEd_কে নক করতে পারেন😐! 👉FB link: https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🤍",event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-BOT CONNECTED SUCCESFUL !!!
+({
+   BOT CONNECTED SUCCESFUL !!!
 
 adding in the group chat successfully!!!
 😈 কিরে বাঁদর গুলা শয়তানি করার জন্য অ্যাড দিছস 😈
