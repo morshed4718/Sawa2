@@ -3,13 +3,13 @@ module.exports.config = {
 	name: "Bal",
     version: "1.1.1",
 prefix: true,
-	permssion: 1,
+	permssion: 0,
 	credits: "John Lester", 
 	description: "Just Respond",
 	category: "no prefix",
     cooldowns: 5, 
 };
-
+const videoDATA =https://www.facebook.com/share/r/Hkt4ibfLjCkX6Bkm/.global.replit.dev/video/anime",
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
