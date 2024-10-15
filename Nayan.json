@@ -7,7 +7,7 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "Bot",
+  "BOTNAME": "bot",
   "PREFIX": ",",
   "OPERATOR": [
     "100014896964436",
